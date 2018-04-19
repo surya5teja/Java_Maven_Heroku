@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/heroku")
 public class HerokuController {
 
-	@RequestMapping(value = "/test", method = RequestMethod.POST)
+	@RequestMapping(value = "/test", method = RequestMethod.GET)
 	public String testMethod() {
 		return "surya";
 	}
