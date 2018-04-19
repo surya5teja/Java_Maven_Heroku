@@ -1,1 +1,1 @@
-web: java -jar ./target/maventest-0.0.1-SNAPSHOT.jar
+web: java -jar /app/tmp/cache/.m2/repository/org/heroku/maventest/0.0.1-SNAPSHOT/maventest-0.0.1-SNAPSHOT.jar
